@@ -19,8 +19,13 @@ struct ContentView: View {
                 Text("Udder")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 Text("Fresh Milk")
+                Image(systemName: "phone.fill")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
             }
             .padding()
+            
+            
         }
     }
 }
