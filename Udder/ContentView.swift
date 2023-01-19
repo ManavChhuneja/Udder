@@ -22,6 +22,9 @@ struct ContentView: View {
                 Image(systemName: "phone.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                Button("Click Here") {
+                    print("button pressed")
+                }
             }
             .padding()
             
